@@ -38,7 +38,7 @@ That said there will be prizes for the forecast competition (described below) an
 
  - 2 points to the closest weekly forecast and 1 point to the second and third place forecasts awarded every week (ties are allowed and in that case all tied parties gets the same points)
  - 2 points to the closest 2 week forecast and 1 point to the second and third place forecasts awarded every week (ties are allowed and in that case all tied parties gets the same points)
- - 3 points to be awarded by the evaluator for the week to three *different* people based on whatever criteria the evaluator chooses (literally anything -- most wrong, best consistency between forecasts, most extreme forecast, greatest difference in one week vs two week performance). The only constraints are: (1) the evaluator cannot give points to themselves or the top three students on the current leaderboard and (2) they must use a phython script to determine their bonus points and show their work (e.g. a graph or a table)
+ - 2 points to be awarded by the student evaluator for the week to two *different* people based on whatever criteria the evaluator chooses (literally anything -- most wrong, best consistency between forecasts, most extreme forecast, greatest difference in one week vs two week performance). The only constraints are: (1) the evaluator cannot give points to themselves or the top three students on the current leaderboard and (2) they must use a phython script to determine their bonus points and show their work (e.g. a graph or a table)
 
 *NOTE: I reserve the right to change the rules and award bonus points as I see fit throughout the semester to keep things interesting :)*
 
@@ -47,15 +47,13 @@ That said there will be prizes for the forecast competition (described below) an
  # Prizes
 1. Every week the top scorer (or scorers if its a tie) for that week (i.e. just the points being awarded in the week not the overall score) will get a free pass on the written portion of the following week's forecast assignment. Winners will still do the assignment and submit your forecast but can skip the written explanation part. The free pass is only good for the week following the winning.
 
-2. At the end of sections two and three, the top three scorers overall will get an additional free pass on a writing assignment to be used any week they want in addition to three bonus points to be distributed to anyone other than themselves however they see fit.
-
 3. At the end of semester the overall winner will be crowned and they will get a 5% bump on their overall course grade. Second and third place will receive a 3% bump.
 
  ___
 <a name="evaluators"></a>
 # Evaluator Job Description :
 
-Each week one or two people will be assigned the job of 'Evaluator'. Your job description is as follows. Note that for your development tasks you should create a branch and then do a pull request when you are ready to merge them in.
+Each week one person will be assigned the job of 'Evaluator'. Your job description is as follows. Note that for your development tasks you should create a branch and then do a pull request when you are ready to merge them in.
 
 1. **'Git' oriented**. Spend some time getting familiar with the structure of the forecast repo.  Make sure you are comfortable with the setup and what you will be doing so you can ask any questions the week before.
   -  The folder `evaluation_scripts` contains all of the python scripts used to evaluate forecasts. *Take time to understand the structure of this folder. The best place to get started is by looking at the `readme.md` contained within this folder.*
@@ -68,7 +66,7 @@ Each week one or two people will be assigned the job of 'Evaluator'. Your job de
 
 5. **Update the scoreboard, seasonal forecast leaders and weekly points awarded** in the `Scoreboard.md` file
 
-6.  **Make a short presentation for Tuesday class.**  Your slides should  include the following (1) summarize the points awarded this week, (2) the current scores and how they changed, (3) how you awarded your bonus points and, (4) provide a summary of some component of the evaluation scripts that relate  to what we have been learning.
+6.  **Make a short presentation for Tuesday class.**  Your slides should  include the following (1) summarize the points awarded this week, (2) the current scores and how they changed, (3) how you awarded your bonus points and, (4) provide a summary of some component of the evaluation scripts that relate to what we have been learning.
 
 7.  **Submit a pull request to merge your branch back into the master** this should be done before class on Tuesday.
 
@@ -81,14 +79,14 @@ Each week one or two people will be assigned the job of 'Evaluator'. Your job de
  1. September 4: Laura
  3. September 11: Laura
  4. September 18: Laura 
- 5. September 25:
- 6. October 2:
- 7. October 9:
- 8. October 16:
- 9. October 23:
- 10. October 30:
- 11. November 6:
- 12. November 13:
- 13. November 20:
- 14. November 27:
- 15. December 4:
+ 5. September 25: Laura
+ 6. October 2: Laura 
+ 7. October 9: Student 1
+ 8. October 16: Student 2
+ 9. October 23: Student 3
+ 10. October 30: Student 4
+ 11. November 6: Student 5
+ 12. November 13: Student 6
+ 13. November 20: Student 7
+ 14. November 27: Student 8
+ 15. December 4: Student 9
