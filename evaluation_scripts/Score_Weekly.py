@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import os
 import eval_functions as ef
 import dataretrieval.nwis as nwis
-import plot_functions as pf
+#import plot_functions as pf
 
 # %%
 # User variables:
@@ -17,7 +17,7 @@ import plot_functions as pf
 #                Use number for week that just ended,
 #                found in Forecst_Dates.csv 
 
-forecast_week = 2 
+forecast_week = 1 
 
 # %%
 station_id = "09506000"
@@ -39,7 +39,8 @@ for i in range(nstudent):
     print(filepath)
     temp = pd.read_csv(filepath, index_col='Forecast #')
     forecasts1[i] = temp.loc[(forecast_week), '1week']
-    forecasts2[i] = temp.loc[(forecast_week - 1), '2week']
+    ##Note: Comment this line out for week 1 judging
+    #forecasts2[i] = temp.loc[(forecast_week - 1), '2week']
 
 print('student forecasts read')
 

@@ -22,7 +22,7 @@ def getLastNames():
     lastNames = list of strings
                 contains students's last names
     """
-    lastNames = ['Acke', "Drainer", "Guo", "Jimenez-Wieneke", "Meyer", "Moeschl", "Porter", "Schlottman", "Strom"]
+    lastNames = ['Acke', "Drainer", "Guo", "Jimenez_Wieneke", "Meyer", "Moeschl", "Porter", "Schlottman", "Strom"]
     return lastNames
 
 
@@ -40,7 +40,7 @@ def getFirstNames():
     firstNames = list of strings
                  contains student's first names
     """
-    firstNames = ['Claire', 'Dave', 'Jason', 'Jessi', 'Jessica', 'Lauren', 'Nathan', 'Robert', 'Tong']
+    firstNames = ['Claire', 'Dave', 'Tong', 'Robert', 'Jessica', 'Jessi', 'Lauren', 'Jason', 'Nathan']
     return firstNames
 
 
