@@ -11,7 +11,11 @@
 # Automated-retrieval info: https://help.waterdata.usgs.gov/faq/automated-retrievals
 #
 # Contact:   gs-w_waterdata_support@usgs.gov
+<<<<<<< Updated upstream
 # retrieved: 2023-09-10 23:53:47 EDT       (caww01)
+=======
+# retrieved: 2023-09-11 12:00:21 EDT       (sdww01)
+>>>>>>> Stashed changes
 #
 # Data for the following 1 site(s) are contained in this file
 #    USGS 09506000 VERDE RIVER NEAR CAMP VERDE, AZ
@@ -28,7 +32,10 @@
 #     e  Value has been estimated.
 # 
 agency_cd	site_no	datetime	5707_00060_00003	5707_00060_00003_cd
+<<<<<<< Updated upstream
 5s	15s	20d	14n	10s
+=======
+>>>>>>> Stashed changes
 USGS	09506000	1989-01-01	207	A
 USGS	09506000	1989-01-02	205	A
 USGS	09506000	1989-01-03	205	A
