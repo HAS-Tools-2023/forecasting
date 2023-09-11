@@ -81,12 +81,12 @@ Each week one person will be assigned the job of 'Evaluator'. Your job descripti
  4. September 18: Laura 
  5. September 25: Laura
  6. October 2: Laura 
- 7. October 9: Student 1
- 8. October 16: Student 2
- 9. October 23: Student 3
- 10. October 30: Student 4
- 11. November 6: Student 5
- 12. November 13: Student 6
- 13. November 20: Student 7
- 14. November 27: Student 8
- 15. December 4: Student 9
+ 7. October 9: Jason
+ 8. October 16: Robert
+ 9. October 23: Tong
+ 10. October 30: Claire
+ 11. November 6: Lauren
+ 12. November 13: Jessi
+ 13. November 20: Jess
+ 14. November 27: Dave
+ 15. December 4: Natan
