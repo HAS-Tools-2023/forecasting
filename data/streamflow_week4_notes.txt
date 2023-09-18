@@ -1,0 +1,74 @@
+Below is the code that I was using for my histograph. addtionally I have the calculated medians for this week and next week, respectively.
+110,107. 
+
+#My code
+flow_count = np.sum((flow_data[:,3] >= 0) & (flow_data[:,1]==9))
+
+
+criteria = (flow_data[:, 3] > 600) & (flow_data[:, 1] == 9)
+pick_data = flow_data[criteria, 3]
+flow_mean = np.mean(pick_data)
+
+flow_mean = np.mean(flow_data[(flow_data[:,3] >= 0) & (flow_data[:,1]==7),3])
+
+print("Flow meets this critera", flow_count, " times")
+print('And has an average value of', flow_mean, "when this is true")
+
+# Make a histogram of data
+# Use the linspace  funciton to create a set  of evenly spaced bins
+mybins = np.linspace(0, 1000, num=15)
+# another example using the max flow to set the upper limit for the bins
+#mybins = np.linspace(0, np.max(flow_data[:,3]), num=15) 
+#Plotting the histogram
+plt.hist(flow_data[:,3], bins = mybins)
+plt.title('Streamflow')
+plt.xlabel('Flow [cfs]')
+plt.ylabel('Count')
+
+# Get the quantiles of flow
+# Two different approaches ---  you should get the same answer
+# just using the flow column
+flow_quants1 = np.nanquantile(flow_data[:,3], q=[0,0.1, 0.5, 0.9])
+print('Method one flow quantiles:', flow_quants1)
+# Or computing on a colum by column basis 
+flow_quants2 = np.nanquantile(flow_data, q=[0,0.1, 0.5, 0.9], axis=0)
+# and then just printing out the values for the flow column
+print('Method two flow quantiles:', flow_quants2[:,3])
+# %%
+ilist = []
+for i in range(len(flow)):
+        if month[i] == 9 and day[i] >= 17 and day[i]<= 23:
+                ilist.append(i)
+
+
+# see how many times the criteria was met by checking the length
+# of the index list that was generated
+print(len(ilist))
+
+# Grabbing out the data that met the criteria
+# This  subset of data is just the elements identified
+# in the ilist
+subset = [flow[j] for j in ilist]
+
+
+
+print(np.median(subset))
+
+# %%
+for i in range(len(flow)):
+        if month[i] == 9 and day[i] >= 24 and day[i]<= 30:
+                ilist.append(i)
+
+
+# see how many times the criteria was met by checking the length
+# of the index list that was generated
+#print(len(ilist))
+
+# Grabbing out the data that met the criteria
+# This  subset of data is just the elements identified
+# in the ilist
+subset2 = [flow[i] for i in ilist]
+
+
+
+print(np.median(subset2))

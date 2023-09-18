@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ---------------------------------- WARNING ----------------------------------------
 # Some of the data that you have obtained from this U.S. Geological Survey database
 # may not have received Director's approval. Any such data values are qualified
@@ -11,15 +12,7 @@
 # Automated-retrieval info: https://help.waterdata.usgs.gov/faq/automated-retrievals
 #
 # Contact:   gs-w_waterdata_support@usgs.gov
-<<<<<<< HEAD
-# retrieved: 2023-09-10 20:05:14 EDT       (vaww02)
-=======
-<<<<<<< Updated upstream
-# retrieved: 2023-09-10 23:53:47 EDT       (caww01)
-=======
-# retrieved: 2023-09-11 12:00:21 EDT       (sdww01)
->>>>>>> Stashed changes
->>>>>>> main
+# retrieved: 2023-09-04 21:02:51 EDT       (caww02)
 #
 # Data for the following 1 site(s) are contained in this file
 #    USGS 09506000 VERDE RIVER NEAR CAMP VERDE, AZ
@@ -36,14 +29,7 @@
 #     e  Value has been estimated.
 # 
 agency_cd	site_no	datetime	5707_00060_00003	5707_00060_00003_cd
-<<<<<<< HEAD
 5s	15s	20d	14n	10s
-=======
-<<<<<<< Updated upstream
-5s	15s	20d	14n	10s
-=======
->>>>>>> Stashed changes
->>>>>>> main
 USGS	09506000	1989-01-01	207	A
 USGS	09506000	1989-01-02	205	A
 USGS	09506000	1989-01-03	205	A
@@ -12708,7 +12694,8 @@ USGS	09506000	2023-08-31	58.7	P
 USGS	09506000	2023-09-01	58.6	P
 USGS	09506000	2023-09-02	63.9	P
 USGS	09506000	2023-09-03	157	P
-USGS	09506000	2023-09-04	135	P
-USGS	09506000	2023-09-05	114	P
-USGS	09506000	2023-09-06	105	P
-USGS	09506000	2023-09-07	88.4	P
+=======
+I approached the homework for this next week 9/4/23 - 9/10/23 the same way as last week. I took the average of each previous week from
+the previous years are got a cfs of 167.2167. This also includes the previous week since there is no current/future data for this week.
+I also got 181.2676 for the following week 9/11/2023 - 9/17/2023. 
+>>>>>>> main
