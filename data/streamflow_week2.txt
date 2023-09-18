@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # ---------------------------------- WARNING ----------------------------------------
 # Some of the data that you have obtained from this U.S. Geological Survey database
 # may not have received Director's approval. Any such data values are qualified
@@ -12693,3 +12694,8 @@ USGS	09506000	2023-08-31	58.7	P
 USGS	09506000	2023-09-01	58.6	P
 USGS	09506000	2023-09-02	63.9	P
 USGS	09506000	2023-09-03	157	P
+=======
+I approached the homework for this next week 9/4/23 - 9/10/23 the same way as last week. I took the average of each previous week from
+the previous years are got a cfs of 167.2167. This also includes the previous week since there is no current/future data for this week.
+I also got 181.2676 for the following week 9/11/2023 - 9/17/2023. 
+>>>>>>> main

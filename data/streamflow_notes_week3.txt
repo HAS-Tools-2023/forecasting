@@ -1,0 +1,28 @@
+This week the class used python to calculate the streamflow for this week 9/10 - 9/16 and next week. 
+I used the code:
+for i in range(len(flow)):
+        if month[i] == 9 and day[i] >= 10 and day[i]<= 16:
+                ilist.append(i)
+
+subset = [flow[j] for j in ilist]
+print(np.median(subset))
+
+This gave me the median flow for all the previous years (since 1989) up to this year in order to find the median
+flow which should be more accurate than the mean flow which I have been using so far. The value I got was 128.
+
+I just ran a different cell to calculate the follwoing week.
+# %%
+for i in range(len(flow)):
+        if month[i] == 9 and day[i] >= 17 and day[i]<= 23:
+                ilist.append(i)
+
+
+print(len(ilist))
+
+subset = [flow[j] for j in ilist]
+
+
+
+print(np.median(subset)) 
+
+I got 118 for the 9/17 - 9/24 week. 
