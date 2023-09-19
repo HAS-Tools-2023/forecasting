@@ -17,7 +17,7 @@ import dataretrieval.nwis as nwis
 #                Use number for week that just ended,
 #                found in Forecst_Dates.csv 
 
-forecast_week = 3 
+forecast_week = 2
 
 # %%
 station_id = "09506000"
@@ -94,12 +94,8 @@ summary = pd.DataFrame({'start': start_date, 'end': stop_date,
                        index=firstnames)
 
 # Rank the forecasts
-summary['1week_ranking'] = summary['1week_difference'].rank(ascending=True,
-                                                            method='dense',
-                                                            na_option='bottom')
-summary['2week_ranking'] = summary['2week_difference'].rank(ascending=True,
-                                                            method='dense',
-                                                            na_option='bottom')
+summary['1week_ranking'] = summary['1week_difference'].rank(ascending=True, method='dense', na_option='bottom')
+summary['2week_ranking'] = summary['2week_difference'].rank(ascending=True, method='dense', na_option='bottom')
 
 
 # Add points for the 1 week forecasts
@@ -153,8 +149,8 @@ print('Third Place = ', list(summary.loc[summary['2week_ranking'] == 3].index),
 # %%
 # Plot the forecasts for this week
 #calcualte the class averages for plotting
-class_avg1 = np.mean(forecasts1)
-class_avg2 = np.mean(forecasts2)
+class_avg1 = np.nanmean(forecasts1)
+class_avg2 = np.nanmean(forecasts2)
 
 #setup the figure
 fig3, ax = plt.subplots()
