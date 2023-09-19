@@ -17,7 +17,7 @@ import dataretrieval.nwis as nwis
 #                Use number for week that just ended,
 #                found in Forecst_Dates.csv 
 
-forecast_week = 1 
+forecast_week = 3 
 
 # %%
 station_id = "09506000"
@@ -40,7 +40,7 @@ for i in range(nstudent):
     temp = pd.read_csv(filepath, index_col='Forecast #')
     forecasts1[i] = temp.loc[(forecast_week), '1week']
     ##Note: Comment this line out for week 1 judging
-    #forecasts2[i] = temp.loc[(forecast_week - 1), '2week']
+    forecasts2[i] = temp.loc[(forecast_week - 1), '2week']
 
 print('student forecasts read')
 
@@ -194,3 +194,5 @@ fig3.savefig(filepath)
 
 
 
+
+# %%
