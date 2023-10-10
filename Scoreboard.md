@@ -3,7 +3,7 @@
 
 |      | Name    | Points    |
 |:-----|---------|---------  |
-|  1   |  Jessi    |  11     |
+|  1   |  Jessi    |  12     |
 |  2   |  Jessica     |  6     |
 |  3   |  Claire    |  5     |
 |  3   |  Nathan   |  5     |
