@@ -3,14 +3,14 @@
 
 |      | Name    | Points    |
 |:-----|---------|---------  |
-|  1   |  Jessi    |  7     |
-|  2   |  Claire    |  5     |
-|  2   |  Nathan   |  5     |
-|  3   |  Tong    |  4     |
+|  1   |  Jessi    |  12     |
+|  2   |  Jessica     |  6     |
+|  3   |  Claire    |  5     |
+|  3   |  Nathan   |  5     |
+|  3   |  Tong    |  5    |
 |  4   |  Jason   | 3     |
-|  5   |  Jessica     |  2     |
-|  6   |  Dave     |  1    |
-|  6   |  Lauren     |  1     |
+|  4   |  Dave     |  3    |
+|  4   |  Lauren     |  3     |
 |  7   |  Robert   |  0     |
 
 
@@ -60,32 +60,28 @@
 
 
 ### Week 5: 9/24-9/30
-- **Observed flow** = 
+- **Observed flow** = 67.3 
 - **1 Week Forecast**:
-  - First place: 
-  - Second place: 
-  - Third place: 
+  - First place:  Jess (66)
+  - Second place: Jessi (62)
+  - Third place:  Lauren (58)
 - **2 Week Forecasts**:
-  - First place: 
-  - Second place: 
-  - Third place: 
-- **Bonus points**
-  - Names: 
-  - Reason: 
+  - First place: Dave & Jessi (85)
+  - Second place:  Jess (40)
+  - Third place: Tong (97.9)
+
 
 ### Week 6: 10/1-10/7
-- **Observed flow** = 
-- **1 Week Forecast**:
+- **Observed flow** = 66.57
+- **1 Week Forecast**: Off week None submitted
   - First place: 
   - Second place: 
   - Third place: 
 - **2 Week Forecasts**:
-  - First place: 
-  - Second place: 
-  - Third place: 
-- **Bonus points**
-  - Names: 
-  - Reason:
+  - First place: Jessi (65)
+  - Second place: Jess (71)
+  - Third place: Lauren (60)
+
 
 ### Week 7: 10/8-10/14
 - **Observed flow** = 
