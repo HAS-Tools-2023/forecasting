@@ -7,10 +7,10 @@
 |  2   |  Tong    |  9    |
 |  3   |  Jessica     |  7     |
 |  3   |  Claire    |  7     |
-|  4   |  Nathan   |  7     |
-|  5   |  Dave     |  5    |
+|  3   |  Nathan   |  7     |
+|  4   |  Dave     |  5    |
 |  5   |  Lauren     |  3     |
-|  6   |  Jason   | 3     |
+|  5   |  Jason   | 3     |
 |  7   |  Robert   |  0     |
 
 
