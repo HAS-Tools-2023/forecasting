@@ -4,13 +4,13 @@
 |      | Name    | Points    |
 |:-----|---------|---------  |
 |  1   |  Jessi    |  13     |
-|  2   |  Tong    |  7    |
-|  3   |  Jessica     |  6     |
-|  3   |  Claire    |  6     |
-|  4   |  Nathan   |  5     |
-|  5   |  Dave     |  3    |
+|  2   |  Tong    |  9    |
+|  3   |  Jessica     |  7     |
+|  3   |  Claire    |  7     |
+|  4   |  Nathan   |  7     |
+|  5   |  Dave     |  5    |
 |  5   |  Lauren     |  3     |
-|  6   |  Jason   | 2     |
+|  6   |  Jason   | 3     |
 |  7   |  Robert   |  0     |
 
 
@@ -96,18 +96,16 @@
 
 
 ### Week 8: 10/15-10/21
-- **Observed flow** = 
+- **Observed flow** = 99.36
 - **1 Week Forecast**:
-  - First place: 
-  - Second place: 
-  - Third place: 
+  - First place: Nathan (99)
+  - Second place: Jess (91)
+  - Third place: Tong (89.3)
 - **2 Week Forecasts**:
-  - First place: 
-  - Second place: 
-  - Third place: 
-- **Bonus points**
-  - Names: 
-  - Reason:
+  - First place:  Dave (100)
+  - Second place: Tong (88.95)
+  - Third place: Claire 82
+
 
 ### Week 9: 10/22-10/28
 - **Observed flow** = 
