@@ -3,15 +3,15 @@
 
 |      | Name    | Points    |
 |:-----|---------|---------  |
-|  1   |  Jessi    |  13     |
-|  2   |  Tong    |  9    |
-|  3   |  Jessica     |  7     |
-|  3   |  Claire    |  7     |
-|  3   |  Nathan   |  7     |
-|  4   |  Dave     |  5    |
-|  5   |  Lauren     |  3     |
-|  5   |  Jason   | 3     |
-|  7   |  Robert   |  0     |
+|  1   |  Jessi    |  15     |
+|  1   |  Tong    |  15    |
+|  2   |  Nathan   |  11    |
+|  3   |  Claire    |  10     |
+|  4   |  Jessica     |  8     |
+|  5   |  Dave     |  7    |
+|  6   |  Jason   | 5     |
+|  7   |  Lauren     |  3     |
+|  8   |  Robert   |  2     |
 
 
 
@@ -108,32 +108,32 @@
 
 
 ### Week 9: 10/22-10/28
-- **Observed flow** = 
+- **Observed flow** =  105.16
 - **1 Week Forecast**:
-  - First place: 
-  - Second place: 
-  - Third place: 
+  - First place: Tong (104.02)
+  - Second place: Jason (103)
+  - Third place: Dave (102)
 - **2 Week Forecasts**:
-  - First place: 
-  - Second place: 
-  - Third place: 
+  - First place:  Nathan (106)
+  - Second place: Tong (101.4)
+  - Third place: Jess (117)
 - **Bonus points**
-  - Names: 
-  - Reason:
+  - Names: Jessi, Claire, Robert
+  - Reason: First three by last name not receiving points this week
 
 ### Week 10: 10/29-11/4
-- **Observed flow** = 
+- **Observed flow** = 120.86
 - **1 Week Forecast**:
-  - First place: 
-  - Second place: 
-  - Third place: 
+  - First place: Nathan (118.5)
+  - Second place: Tong (116.7)
+  - Third place: Jess (112)
 - **2 Week Forecasts**:
-  - First place: 
-  - Second place: 
-  - Third place: 
+  - First place: Tong (123.13)
+  - Second place: Jess (111.8)
+  - Third place: Dave (110)
 - **Bonus points**
-  - Names: 
-  - Reason:
+  - Names: Robert, Jessi, Jason
+  - Reason: Largest differences in week 1 forecast
 
 ### Week 11: 11/5-11/11
 - **Observed flow** = 
