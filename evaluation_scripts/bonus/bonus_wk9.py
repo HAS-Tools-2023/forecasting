@@ -6,14 +6,14 @@ import eval_functions as ef
 # Name: Laura Condon 
 # Description: Assigning bonus points to the first 3 people alphabetically 
 # who are not otherwise getting points
-weeknum = 2
+weeknum = 9
 
 all_names = ef.getFirstNames()
 print('Everyone:', all_names)
 print()
 
 #make a list of all the people who got points this week
-points_list = ['Josh', 'Xingyu', 'Sierra', 'Xueyan', 'Andrew', 'Gigi', 'Jason', 'Monique']
+points_list = ['Tong', 'Nathan', 'Dave', 'Jason', 'Jessica']
 print('People getting points already:', points_list)
 print()
 
