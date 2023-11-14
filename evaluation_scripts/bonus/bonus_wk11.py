@@ -7,14 +7,14 @@ import numpy as np
 # %%
 # Name: Laura Condon 
 # Description: Assigning bonus points to the people with the largest differences in their week 1 forecast from observations 
-weeknum = 10
+weeknum = 11
 
 all_names = ef.getFirstNames()
 print('Everyone:', all_names)
 print()
 
 #make a list of all the people who got points this week
-points_list = ['Tong', 'Nathan', 'Dave', 'Jessica']
+points_list = ['Tong', 'Nathan', 'Lauren', 'Claire']
 print('People getting points already:', points_list)
 print()
 
@@ -23,7 +23,7 @@ print()
 nopoints_list = [name for name in all_names if name not in points_list]
 
 #Read in the forecast results for this week
-fcst_results = pd.read_csv('../../weekly_results/forecast_week10_results.csv', index_col='name')
+fcst_results = pd.read_csv('../../weekly_results/forecast_week11_results.csv', index_col='name')
 
 #Grab out just the people who are not receiving points already 
 nopoint_results = fcst_results.loc[nopoints_list]
@@ -41,6 +41,6 @@ print("People Getting bonus points:", bonus_names)
 print()
 
 #Write out the bonus points
-#ef.write_bonus(bonus_names, all_names, weeknum)            #UNCOMMENT
+ef.write_bonus(bonus_names, all_names, weeknum)            #UNCOMMENT
 
 # %%

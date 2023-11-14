@@ -3,15 +3,15 @@
 
 |      | Name    | Points    |
 |:-----|---------|---------  |
-|  1   |  Jessi    |  15     |
-|  1   |  Tong    |  15    |
-|  2   |  Nathan   |  11    |
-|  3   |  Claire    |  10     |
-|  4   |  Jessica     |  8     |
-|  5   |  Dave     |  7    |
-|  6   |  Jason   | 5     |
-|  7   |  Lauren     |  3     |
-|  8   |  Robert   |  2     |
+|  1   |  Tong    |  17     |
+|  2   |  Jessi    |  15    |
+|  3   |  Nathan   |  11    |
+|  4   |  Jessica    |  11     |
+|  5   |  Claire     |  10     |
+|  6   |  Dave     |  9    |
+|  7   |  Jason   | 5     |
+|  8   |  Lauren     |  4     |
+|  9   |  Robert   |  2     |
 
 
 
@@ -136,18 +136,18 @@
   - Reason: Largest differences in week 1 forecast
 
 ### Week 11: 11/5-11/11
-- **Observed flow** = 
+- **Observed flow** = 136.875
 - **1 Week Forecast**:
-  - First place: 
-  - Second place: 
-  - Third place: 
+  - First place: Nathan (135)
+  - Second place: Lauren (140)
+  - Third place: Tong (132.19)
 - **2 Week Forecasts**:
-  - First place: 
-  - Second place: 
-  - Third place: 
+  - First place: Claire (137.87)
+  - Second place: Tong (135.09)
+  - Third place: Nathan (141)
 - **Bonus points**
-  - Names: 
-  - Reason:
+  - Names: Dave, Robert, Jessica
+  - Reason: largest difference between week 1 and week 2 forecasts
 
 ### Week 12: 11/12-11/18
 - **Observed flow** = 
