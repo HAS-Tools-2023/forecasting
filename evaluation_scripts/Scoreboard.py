@@ -16,19 +16,19 @@ from pandas.plotting import table
 # https://www.earthdatascience.org/courses/intro-to-earth-data-science/
 # Chapter 12 lesson 3
 file_list = glob(os.path.join('../weekly_results', 'forecast_week*.csv'))
-#file_listB = glob(os.path.join('../weekly_results', 'bonus*.#csv'))
+file_listB = glob(os.path.join('../weekly_results', 'bonus*.csv'))
 
 # Get the week numbers from the file list by splitting the strings
 forecast_names = [file_list[i].split('_')[2] for i in range(len(file_list))]
-#bonus_names = [file_listB[i].split('_')[2][0:-4] for i in range(len(file_list))]
+bonus_names = [file_listB[i].split('_')[2][0:-4] for i in range(len(file_listB))]
 
 # Then get out just the week numbers and 
 forecast_nums = [int(i[4::]) for i in forecast_names]
 forecast_nums = np.sort(forecast_nums)
 forecast_week = np.max(forecast_nums) #current forecast week
 
-#bonus_nums = [int(i[4::]) for i in bonus_names]
-#bonus_nums = np.sort(bonus_nums)
+bonus_nums = [int(i[4::]) for i in bonus_names]
+bonus_nums = np.sort(bonus_nums)
 
 # %%
 # setup a dataframe with all zeros for the scoreboard
@@ -64,18 +64,18 @@ for f in range(np.min(forecast_nums), np.max(forecast_nums)+1):
 
 # Add in thte bonus points
 #for file in file_listB:
-#for f in range(np.min(bonus_nums), np.max(bonus_nums)+1):
-#    fname = 'bonus_week' + str(f) + '.csv'
-#    filetemp = os.path.join('../weekly_results', fname)
-#    print(filetemp)
+for f in range(np.min(bonus_nums), np.max(bonus_nums)+1):
+    fname = 'bonus_week' + str(f) + '.csv'
+    filetemp = os.path.join('../weekly_results', fname)
+    print(filetemp)
 
-#    temp=pd.read_csv(filetemp, index_col='names')
-#    scoreboard['bonus'] += temp['points']
+    temp=pd.read_csv(filetemp, index_col='names')
+    scoreboard['bonus'] += temp['points']
 
-#    # add the values to the week table:
-#    score_weekly = score_weekly.join(temp['points'])
-#    score_weekly = score_weekly.rename(
-#        columns={'points': ('wk' + str(f) + '_bonus')})
+    # add the values to the week table:
+    score_weekly = score_weekly.join(temp['points'])
+    score_weekly = score_weekly.rename(
+        columns={'points': ('wk' + str(f) + '_bonus')})
 
 
 

@@ -3,15 +3,15 @@
 
 |      | Name    | Points    |
 |:-----|---------|---------  |
-|  1   |  Jessi    |  13     |
-|  2   |  Tong    |  9    |
-|  3   |  Jessica     |  7     |
-|  3   |  Claire    |  7     |
-|  3   |  Nathan   |  7     |
-|  4   |  Dave     |  5    |
-|  5   |  Lauren     |  3     |
-|  5   |  Jason   | 3     |
-|  7   |  Robert   |  0     |
+|  1   |  Tong    |  17     |
+|  2   |  Jessi    |  15    |
+|  3   |  Nathan   |  11    |
+|  4   |  Jessica    |  11     |
+|  5   |  Claire     |  10     |
+|  6   |  Dave     |  9    |
+|  7   |  Jason   | 5     |
+|  8   |  Lauren     |  4     |
+|  9   |  Robert   |  2     |
 
 
 
@@ -108,46 +108,46 @@
 
 
 ### Week 9: 10/22-10/28
-- **Observed flow** = 
+- **Observed flow** =  105.16
 - **1 Week Forecast**:
-  - First place: 
-  - Second place: 
-  - Third place: 
+  - First place: Tong (104.02)
+  - Second place: Jason (103)
+  - Third place: Dave (102)
 - **2 Week Forecasts**:
-  - First place: 
-  - Second place: 
-  - Third place: 
+  - First place:  Nathan (106)
+  - Second place: Tong (101.4)
+  - Third place: Jess (117)
 - **Bonus points**
-  - Names: 
-  - Reason:
+  - Names: Jessi, Claire, Robert
+  - Reason: First three by last name not receiving points this week
 
 ### Week 10: 10/29-11/4
-- **Observed flow** = 
+- **Observed flow** = 120.86
 - **1 Week Forecast**:
-  - First place: 
-  - Second place: 
-  - Third place: 
+  - First place: Nathan (118.5)
+  - Second place: Tong (116.7)
+  - Third place: Jess (112)
 - **2 Week Forecasts**:
-  - First place: 
-  - Second place: 
-  - Third place: 
+  - First place: Tong (123.13)
+  - Second place: Jess (111.8)
+  - Third place: Dave (110)
 - **Bonus points**
-  - Names: 
-  - Reason:
+  - Names: Robert, Jessi, Jason
+  - Reason: Largest differences in week 1 forecast
 
 ### Week 11: 11/5-11/11
-- **Observed flow** = 
+- **Observed flow** = 136.875
 - **1 Week Forecast**:
-  - First place: 
-  - Second place: 
-  - Third place: 
+  - First place: Nathan (135)
+  - Second place: Lauren (140)
+  - Third place: Tong (132.19)
 - **2 Week Forecasts**:
-  - First place: 
-  - Second place: 
-  - Third place: 
+  - First place: Claire (137.87)
+  - Second place: Tong (135.09)
+  - Third place: Nathan (141)
 - **Bonus points**
-  - Names: 
-  - Reason:
+  - Names: Dave, Robert, Jessica
+  - Reason: largest difference between week 1 and week 2 forecasts
 
 ### Week 12: 11/12-11/18
 - **Observed flow** = 

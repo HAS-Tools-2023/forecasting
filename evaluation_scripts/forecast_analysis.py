@@ -8,7 +8,7 @@ import os
 import eval_functions as ef
 
 # %%
-forecast_week = 7 #CHANGE to reflect current week
+forecast_week = 9 #CHANGE to reflect current week
 
 # %%
 station_id = "09506000"
@@ -87,12 +87,12 @@ fig.savefig(filepath)
 rankings = np.zeros([nstudent, forecast_week])  # 1wk forecast for this week
 
 #loop through and read in the rankings for every week
-for f in range(1, (forecast_week+1)):
+for f in range(3, (forecast_week+1)):
     fname = 'scoreboard_week' + str(f) + '.csv'
     filetemp = os.path.join('../weekly_results', fname)
     temp = pd.read_csv(filetemp, index_col='name')
 
-    if f ==1:
+    if f ==3:
         ranks = temp
 
         print(ranks)
