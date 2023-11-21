@@ -86,7 +86,7 @@ Each week one person will be assigned the job of 'Evaluator'. Your job descripti
  9. October 23: Laura
  10. October 30: Laura
  11. November 6: Laura
- 12. November 13: Jessi & Jason
- 13. November 20: Jess & Robert & Lauren
+ 12. November 13: Jessi & Jason 
+ 13. November 20: Jess & Robert
  14. November 27: Dave & Tong
- 15. December 4: Natan & Claire
+ 15. December 4: Natan, Claire  & Lauren
