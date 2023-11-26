@@ -3,15 +3,15 @@
 
 |      | Name    | Points    |
 |:-----|---------|---------  |
-|  1   |  Tong    |  17     |
-|  2   |  Jessi    |  15    |
-|  3   |  Nathan   |  11    |
-|  4   |  Jessica    |  11     |
-|  5   |  Claire     |  10     |
-|  6   |  Dave     |  9    |
-|  7   |  Jason   | 5     |
-|  8   |  Lauren     |  4     |
-|  9   |  Robert   |  2     |
+|  1   |  Tong    |  18     |
+|  2   |  Jessi    |  16    |
+|  3   |  Nathan   |  15    |
+|  4   |  Jessica    |  12     |
+|  5   |  Claire     |  11     |
+|  6   |  Dave     |  10    |
+|  7   |  Lauren   | 8     |
+|  8   |  Jason     |  5     |
+|  9   |  Robert   |  3     |
 
 
 
@@ -150,18 +150,18 @@
   - Reason: largest difference between week 1 and week 2 forecasts
 
 ### Week 12: 11/12-11/18
-- **Observed flow** = 
+- **Observed flow** = 156.571
 - **1 Week Forecast**:
-  - First place: 
-  - Second place: 
-  - Third place: 
+  - First place: Lauren (158.0)
+  - Second place: Jessi (155.0)
+  - Third place: Jessica (154.25)
 - **2 Week Forecasts**:
-  - First place: 
-  - Second place: 
-  - Third place: 
+  - First place: Lauren (147.0)
+  - Second place: Nathan (146.0)
+  - Third place: Tong (142.86)
 - **Bonus points**
-  - Names: 
-  - Reason:
+  - Names: Claire, Dave, and Robert
+  - Reason: Randomly selected via numpy function
 
 ### Week 13: 11/19-11/25
 - **Observed flow** = 
