@@ -3,15 +3,15 @@
 
 |      | Name    | Points    |
 |:-----|---------|---------  |
-|  1   |  Tong    |  17     |
-|  2   |  Jessi    |  15    |
-|  3   |  Nathan   |  11    |
-|  4   |  Jessica    |  11     |
-|  5   |  Claire     |  10     |
-|  6   |  Dave     |  9    |
-|  7   |  Jason   | 5     |
-|  8   |  Lauren     |  4     |
-|  9   |  Robert   |  2     |
+|  1   |  Jessi    |  19     |
+|  2   |  Tong   |  18    |
+|  3   |  Nathan  |  16    |
+|  4   |  Dave    |  13     |
+|  5   |  Jessica |  13    |
+|  6   |  Claire  |  12    |
+|  7   |  Lauren  | 10     |
+|  8   |  Jason   |  5     |
+|  9   |  Robert  |  4     |
 
 
 
@@ -150,32 +150,32 @@
   - Reason: largest difference between week 1 and week 2 forecasts
 
 ### Week 12: 11/12-11/18
-- **Observed flow** = 
+- **Observed flow** = 156.571
 - **1 Week Forecast**:
-  - First place: 
-  - Second place: 
-  - Third place: 
+  - First place: Lauren (158.0)
+  - Second place: Jessi (155.0)
+  - Third place: Jessica (154.25)
 - **2 Week Forecasts**:
-  - First place: 
-  - Second place: 
-  - Third place: 
+  - First place: Lauren (147.0)
+  - Second place: Nathan (146.0)
+  - Third place: Tong (142.86)
 - **Bonus points**
-  - Names: 
-  - Reason:
+  - Names: Claire, Dave, and Robert
+  - Reason: Randomly selected via numpy function
 
 ### Week 13: 11/19-11/25
-- **Observed flow** = 
+- **Observed flow** = 179.429
 - **1 Week Forecast**:
-  - First place: 
-  - Second place: 
-  - Third place: 
+  - First place: Jessi & Dave (182.0)
+  - Second place: Claire (182.5)
+  - Third place: Lauren (165.0)
 - **2 Week Forecasts**:
-  - First place: 
-  - Second place: 
-  - Third place: 
+  - First place: Lauren (165.0)
+  - Second place: Dave (164.0)
+  - Third place: Jessica (163.0)
 - **Bonus points**
-  - Names: 
-  - Reason:
+  - Names: Nathan, Robert
+  - Reason: Week 1 & 2 Forecast Avg closest to obs flow on random day
 
 ### Week 14: 11/26-12/2
 - **Observed flow** = 
