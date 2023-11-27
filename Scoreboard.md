@@ -3,15 +3,15 @@
 
 |      | Name    | Points    |
 |:-----|---------|---------  |
-|  1   |  Tong    |  18     |
-|  2   |  Jessi    |  16    |
-|  3   |  Nathan   |  15    |
-|  4   |  Jessica    |  12     |
-|  5   |  Claire     |  11     |
-|  6   |  Dave     |  10    |
-|  7   |  Lauren   | 8     |
-|  8   |  Jason     |  5     |
-|  9   |  Robert   |  3     |
+|  1   |  Jessi    |  19     |
+|  2   |  Tong   |  18    |
+|  3   |  Nathan  |  16    |
+|  4   |  Dave    |  13     |
+|  5   |  Jessica |  13    |
+|  6   |  Claire  |  12    |
+|  7   |  Lauren  | 10     |
+|  8   |  Jason   |  5     |
+|  9   |  Robert  |  4     |
 
 
 
@@ -164,18 +164,18 @@
   - Reason: Randomly selected via numpy function
 
 ### Week 13: 11/19-11/25
-- **Observed flow** = 
+- **Observed flow** = 179.429
 - **1 Week Forecast**:
-  - First place: 
-  - Second place: 
-  - Third place: 
+  - First place: Jessi & Dave (182.0)
+  - Second place: Claire (182.5)
+  - Third place: Lauren (165.0)
 - **2 Week Forecasts**:
-  - First place: 
-  - Second place: 
-  - Third place: 
+  - First place: Lauren (165.0)
+  - Second place: Dave (164.0)
+  - Third place: Jessica (163.0)
 - **Bonus points**
-  - Names: 
-  - Reason:
+  - Names: Nathan, Robert
+  - Reason: Week 1 & 2 Forecast Avg closest to obs flow on random day
 
 ### Week 14: 11/26-12/2
 - **Observed flow** = 

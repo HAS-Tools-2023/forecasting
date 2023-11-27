@@ -8,7 +8,7 @@ import os
 import eval_functions as ef
 
 # %%
-forecast_week = 9 #CHANGE to reflect current week
+forecast_week = 13  # CHANGE to reflect current week
 
 # %%
 station_id = "09506000"
@@ -71,7 +71,7 @@ ax = sns.boxplot(x="week", y="value", hue="Leadtime", data=mdf, palette=my_pal,
 ax.set_xlabel('Forecast Week')
 ax.set_ylabel('Flow (cfs)')
 plt.scatter((weekly_flows.index - 0.2), weekly_flows['observed'], marker='*', s=100, color='darkred')
-
+plt.xticks(rotation=45)
 plt.show()
 
 # Save the plot to a file
